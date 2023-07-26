@@ -1,0 +1,405 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: url(../Recursos/lol.jpg) no-repeat center;
+  background-size: 100% auto;
+}
+
+@font-face {
+  font-family: fuente_titulo;
+  src: url(/Fuentes/coffee_tea/coffee+teademo-Regular.ttf);
+}
+
+.titulo {
+  font-family: fuente_titulo;
+  font-size: 50px;
+  color: #f9b424;
+}
+
+header {
+  width: 100%;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@font-face{
+  font-family: un_menu;
+  src: url(/Fuentes/made_dillan/MADE\ Dillan\ PERSONAL\ USE.otf)
+}
+
+nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0,0,0,0.7);
+  padding-top: 1px;
+  font-family: un_menu;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.div-nav-op {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.menu:hover
+{
+  color: #888888;
+  cursor: pointer;
+}
+
+.pedidos:hover
+{
+  color: #888888;
+  cursor: pointer;
+}
+
+.quienessomos:hover
+{
+  color: #888888;
+  cursor: pointer;
+}
+
+.contactenos:hover
+{
+  color: #888888;
+  cursor: pointer;
+}
+
+.logo {
+  max-height: 60px;
+  height: 10vh;
+  margin-right: 2vw;
+}
+
+h1 {
+  font-family: party_day;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.divlogo {
+  width: 5%;
+  height: 100%;
+  float: left;
+  background-color: red;
+}
+
+.divgeneral {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.general2 {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pri2div {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.div125 img {
+  width: 25vw;
+  height: 25vh;
+  object-fit: cover;
+  opacity: 0.8;
+  border-radius: 10%;
+  transition: transform 0.5s ease;
+}
+
+.div125 img:active {
+  cursor: pointer;
+  transform: scale(2);
+}
+
+.div225 {
+  flex: 1;
+}
+
+section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+  border-radius: 10%;
+  transition: transform 0.5s ease;
+}
+
+section img:hover {
+  cursor: pointer;
+  transform: scale(1.0);
+
+}
+
+.sec2div {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.div325 {
+  flex: 1;
+}
+
+.div425 {
+  flex: 1;
+}
+
+.div100 {
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.redes {
+  width: 100%;
+  height: 5%;
+  background-color: rgba(10, 0, 0, 1.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.red-social {
+  display: flex;
+  align-items: center;
+}
+
+.imgg {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+h2 {
+  color: white;
+  font-size: 16px;
+}
+
+.div1002 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sectiop {
+  width: 45%;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.nav-item:hover {
+color: #f9b424;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+.divlogo {
+  width: 5%;
+  height: 100%;
+  float: left;
+  background-color: red; 
+}
+
+.divgeneral {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.general2 {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pri2div {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.div125 img {
+  width: 25vw;
+  height: 25vh;
+  object-fit: cover;
+  opacity: 0.8;
+  border-radius: 10%;
+  transition: transform 0.5s ease;
+}
+
+.div125 img:active {
+  cursor: pointer;
+  transform: scale(2);
+}
+
+.div225 {
+display: flex;
+align-items: center;
+padding-left: 16%;
+}
+
+.div50 {
+  width: 50%;
+  height: 100%;
+}
+
+.div500 {
+  display: flex;
+  width: 20%;
+  height: 100%;
+}
+
+section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+  border-radius: 10%;
+  transition: transform 0.5s ease;
+}
+
+section img:hover {
+  cursor: pointer;
+  transform: scale(1.8);
+}
+
+.sec2div {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.div325 {
+  width: 100%;
+  height: 100%;
+}
+
+.img_gato{
+width: 305px;
+height: 170px;
+}
+
+.direccion
+{
+  font-size: 20px;
+  color: white;
+  font-family: f3;
+}
+
+@font-face{
+  font-family: f3;
+  src: url(/Fuentes/sachila_residance/Sachila\ Residance.ttf);
+}
+
+.div425 {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: f3;
+}
+
+.div100 {
+  width: 100%;
+  height: 100vh;
+   flex-direction: column;
+
+}
+
+.redes {
+  width: 100%;
+  height: 5%;
+  background-color:rgba(10, 0, 0, 1.5); 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.red-social {
+  display: flex;
+  align-items: center;
+}
+
+.imgg {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+h2 {
+  color: white;
+  font-size: 16px;
+}
+
+
+
+
+.div1002 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sectiop {
+  width: 45%;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+

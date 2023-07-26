@@ -1,0 +1,101 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: url(../Recursos/lol.jpg) no-repeat center;
+  background-size: cover; 
+}
+
+@font-face {
+  font-family: party_day;
+  src: url(coffee_tea/coffee+teademo-Regular.ttf);
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  header {
+    min-height: 80px;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  .logo {
+    max-height: 40px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .nav--container {
+    min-height: 60px;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  .ul--nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ul--nav li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 45%;
+  }
+
+  .divgeneral {
+    padding: 20px 0;
+  }
+
+  .div1002 {
+    flex-direction: column;
+  }
+
+  .sectiop {
+    width: 95%;
+  }
+
+  .redes {
+    height: 70px;
+  }
+
+  .red-social {
+    margin-bottom: 10px;
+  }
+
+  .general2 {
+    flex-direction: column;
+  }
+
+  .pri2div,
+  .div50,
+  .sec2div {
+    width: 100%;
+  }
+
+  .div125 img {
+    width: 90%;
+    height: auto;
+  }
+  section img {
+    width: 90%;
+    height: auto;
+  }
+  
+  .div325,
+  .div425 {
+    display: none;
+  }
+}
